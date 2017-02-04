@@ -1,0 +1,12 @@
+<div class="sub-header" ng-init="appvm.sideMenuCollapse=true">
+    <div class="row">
+        <div class="col-xs-6">
+            <h1>Home1</h1>
+            <small>small test</small>
+        </div>
+        <div class="col-xs-6">
+            <grid-action-group save="home1vm.save()" add-row="home1vm.addRow()"></grid-action-group>
+        </div>
+    </div>
+</div>
+<h1>{{ home1vm.name }} works!</h1>
