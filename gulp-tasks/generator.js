@@ -5,7 +5,7 @@ var yargs = require('yargs');
 
 module.exports = function(gulp) {
 
-    let root = '../restapi';
+    let root = '../api-generator';
 
     // helper method for resolving paths
     let resolveToController = (glob = '') => {
